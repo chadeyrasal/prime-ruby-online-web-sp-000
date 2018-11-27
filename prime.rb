@@ -18,4 +18,10 @@ def prime?(number)
   elsif number == 101013
     false
   end
+  if number < 2
+    false
+  else
+    (2..number - 1)
+
+  end
 end
