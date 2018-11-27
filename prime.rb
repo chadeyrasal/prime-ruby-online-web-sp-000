@@ -18,6 +18,7 @@ def prime?(number)
   elsif number == 101013
     false
   end
+  possibilities = (2..number - 1).to_a
   if number < 2
     false
   else
